@@ -7,7 +7,7 @@ import Support from '../Pages/Home/Shared/Support/Support';
 const Main = () => {
     return (
         <>
-            {/* <Support /> */}
+            <Support />
             <Navbar />
             <Outlet />
             <Footer />
