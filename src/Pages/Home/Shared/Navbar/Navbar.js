@@ -17,25 +17,25 @@ const Navbar = () => {
                 </div>
                 <ul className={`lg:pt-0 pt-5 duration-200 text-white lg:flex lg:static absolute z-[100] bg-[#1C2444] lg:w-auto w-full ${open ? 'top-[52px]' : 'top-[-320px]'}`}>
                     <li className='mx-4 text-sm lg:text-left text-center'>
-                        <Link to='/'>Home</Link>
+                        <Link to='/' className='hover:text-[#29abe2] duration-100'>Home</Link>
                     </li>
                     <li className='mx-4 text-sm lg:text-left text-center lg:my-0 my-4'>
-                        <Link to='/'>Features</Link>
+                        <Link to='/' className='hover:text-[#29abe2] duration-100'>Features</Link>
                     </li>
                     <li className='mx-4 text-sm lg:text-left text-center lg:my-0 my-4'>
-                        <Link to='/'>Layouts</Link>
+                        <Link to='/' className='hover:text-[#29abe2] duration-100'>Layouts</Link>
                     </li>
                     <li className='mx-4 text-sm lg:text-left text-center lg:my-0 my-4'>
-                        <Link to='/'>Client Review</Link>
+                        <Link to='/' className='hover:text-[#29abe2] duration-100'>Client Review</Link>
                     </li>
                     <li className='mx-4 text-sm lg:text-left text-center lg:my-0 my-4'>
-                        <Link to='/'>Pricing</Link>
+                        <Link to='/' className='hover:text-[#29abe2] duration-100'>Pricing</Link>
                     </li>
                     <li className='mx-4 text-sm lg:text-left text-center lg:my-0 my-4'>
-                        <Link to='/'>FAQ</Link>
+                        <Link to='/' className='hover:text-[#29abe2] duration-100'>FAQ</Link>
                     </li>
                     <li className='mx-4 text-sm lg:text-left text-center lg:my-0 my-4'>
-                        <Link to='/'>Contact Us</Link>
+                        <Link to='/' className='hover:text-[#29abe2] duration-100'>Contact Us</Link>
                     </li>
                 </ul>
                 <div className={`text-white duration-200 lg:text-left text-center lg:pb-0 pb-5 text-sm lg:flex lg:static absolute z-[100] lg:w-auto w-full bg-[#1C2444] ${open ? 'top-[320px]' : 'top-[-320px]'}`}>

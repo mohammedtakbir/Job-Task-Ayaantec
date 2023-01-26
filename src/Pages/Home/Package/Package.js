@@ -22,7 +22,7 @@ const Package = () => {
         <section className='mt-10'>
             <div className='text-center mb-[50px]'>
                 <h2 className='text-[28px] font-semibold mb-2'>Complete Package</h2>
-                <h3 className='text-[28px] font-semibold'>Every Single Module you Want Are Available</h3>
+                <h3 className='text-[20px] font-semibold'>Every Single Module you Want Are Available</h3>
             </div>
             <div className='container mx-auto mb-[-20%] px-5'>
                 <img src="https://atlerp.xyz/landing/images/module_img.png" alt="" />

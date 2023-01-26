@@ -38,7 +38,7 @@ const Features = () => {
         <section className='container mx-auto mt-[40px] px-5'>
             <div className='text-center mb-[50px]'>
                 <h2 className='text-[28px] font-semibold mb-2'>Features</h2>
-                <h3 className='text-[28px] font-semibold'>SME Business Solution System</h3>
+                <h3 className='text-[20px] font-semibold'>SME Business Solution System</h3>
             </div>
             <div className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5'>
                 {

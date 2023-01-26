@@ -1,0 +1,27 @@
+.custom-skew::after {
+    content: '';
+    position: absolute;
+    height: 70px;
+    left: 0;
+    right: 0;
+    top: -36px;
+    background: #fff;
+    transform: skewY(-2deg);
+    -webkit-transform: skewY(-2deg);
+    -moz-transform: skewY(-2deg);
+    -ms-transform: skewY(-2deg);
+}
+
+.custom-skew::before {
+    content: '';
+    position: absolute;
+    height: 70px;
+    left: 0;
+    right: 0;
+    bottom: -36px;
+    background: #fff;
+    transform: skewY(-2deg);
+    -webkit-transform: skewY(-2deg);
+    -moz-transform: skewY(-2deg);
+    -ms-transform: skewY(-2deg);
+}

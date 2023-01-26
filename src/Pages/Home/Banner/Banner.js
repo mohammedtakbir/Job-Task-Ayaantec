@@ -1,10 +1,9 @@
 import React from 'react';
-import './banner.css';
 import { FaGlobe, FaShoppingBag } from "react-icons/fa";
 
 const Banner = () => {
     return (
-        <section className='bg-[#0279B4] custom-skew relative'>
+        <section className='bg-[#0279B4] relative'>
             <div className='container mx-auto md:pt-[70px] sm:pt-[50px] pt-[30px] md:pb-0 sm:pb-[50px] pb-[30px] px-5'>
                 <div className='md:flex items-center gap-5'>
                     <div className='text-white md:w-[40%] w-full relative z-50'>
