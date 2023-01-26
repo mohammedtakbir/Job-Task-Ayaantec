@@ -15,7 +15,7 @@ const Navbar = () => {
                 <div className="logo ml-2">
                     <img src="https://atlerp.xyz/storage/uploads/logo/logo-light.png" className='lg:h-[50px] h-[40px]' alt="" />
                 </div>
-                <ul className={`lg:pt-0 pt-5 duration-200 text-white lg:flex lg:static absolute z-50 bg-[#1C2444] lg:w-auto w-full ${open ? 'top-[52px]' : 'top-[-320px]'}`}>
+                <ul className={`lg:pt-0 pt-5 duration-200 text-white lg:flex lg:static absolute z-[100] bg-[#1C2444] lg:w-auto w-full ${open ? 'top-[52px]' : 'top-[-320px]'}`}>
                     <li className='mx-4 text-sm lg:text-left text-center'>
                         <Link to='/'>Home</Link>
                     </li>
@@ -38,7 +38,7 @@ const Navbar = () => {
                         <Link to='/'>Contact Us</Link>
                     </li>
                 </ul>
-                <div className={`text-white duration-200 lg:text-left text-center lg:pb-0 pb-5 text-sm lg:flex lg:static absolute z-50 lg:w-auto w-full bg-[#1C2444] ${open ? 'top-[320px]' : 'top-[-320px]'}`}>
+                <div className={`text-white duration-200 lg:text-left text-center lg:pb-0 pb-5 text-sm lg:flex lg:static absolute z-[100] lg:w-auto w-full bg-[#1C2444] ${open ? 'top-[320px]' : 'top-[-320px]'}`}>
                     <button className='mr-3'><FaRegUser className='inline' /> Login</button>
                     <button><FaRegUser className='inline' /> Register</button>
                 </div>
