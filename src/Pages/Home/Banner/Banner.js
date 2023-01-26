@@ -9,7 +9,9 @@ const Banner = () => {
                 <div className='md:flex items-center gap-5'>
                     <div className='text-white md:w-[40%] w-full relative z-50'>
                         <h2 className='text-[42px] font-semibold mb-[12px]'>ATL-ERP</h2>
-                        <h3 className='md:text-[25px] text-[20px] font-semibold leading-[33px] mb-[24px]'>Accounting System,Employee Management,HRM Management,Attendance,Leave Management,Project Management</h3>
+                        <h3 className='md:text-[25px] text-[20px] font-semibold leading-[33px] mb-[24px]'>
+                            Accounting System, Employee Management, HRM Management, Attendance, Leave Management, Project Management
+                        </h3>
                         <p className='text-[14px] mb-[24px]'>A software with which to expand your business</p>
                         <div className='flex gap-3 md:mb-0 mb-[30px]'>
                             <button className='flex items-center bg-white text-[#0279b4] hover:text-[#293240] duration-200 text-sm font-medium px-[19px] py-[9px] rounded-md'>
