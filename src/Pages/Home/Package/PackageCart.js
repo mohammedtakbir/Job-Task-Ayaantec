@@ -1,5 +1,5 @@
 import React from 'react';
-import './package.css';
+import './package.modules.css';
 import { BsInfoCircle } from "react-icons/bs";
 
 const PackageCart = ({ p }) => {
