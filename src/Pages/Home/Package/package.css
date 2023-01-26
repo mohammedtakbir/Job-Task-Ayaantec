@@ -1,0 +1,8 @@
+.custom-hover:hover{
+    background-image: linear-gradient(to top, hsl(200deg 98% 36%) 0%, hsla(186, 100%, 50%, 1) 100%);
+}
+.custom-hover:hover .h2,
+.custom-hover:hover .icon{
+    color: #fff;
+    transition: .7s;
+}
